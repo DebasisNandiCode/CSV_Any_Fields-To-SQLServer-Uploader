@@ -10,7 +10,6 @@ Logging and error handling
 Environment-based configuration via .env
 
 🚀 Features
-
 ✅ Connects to Microsoft SQL Server using credentials from .env
 ✅ Reads large CSV files efficiently with Pandas
 ✅ Automatically matches CSV columns to target table columns
@@ -22,7 +21,6 @@ Environment-based configuration via .env
 
 
 🧩 Folder Structure
-
 CSV-To-SQLServer-Uploader/
 │
 ├── upload_data.py               # Main script
@@ -33,7 +31,6 @@ CSV-To-SQLServer-Uploader/
 
 
 🔐 Configure .env
-
 Create a .env file in the project root with your SQL Server credentials:
 DB_SERVER=your_server_name_or_ip
 DB_DATABASE=your_database_name
@@ -43,7 +40,6 @@ DB_SCHEMA=tcn
 
 
 🧾 Logging
-
 Execution logs are stored in upload.log
 Each run logs:
 Connection success/failure
@@ -54,7 +50,6 @@ Upload success/failure messages
 
 
 🛠️ Dependencies
-
 Python 3.8+
 pandas
 sqlalchemy
@@ -63,7 +58,6 @@ python-dotenv
 
 
 🤝 Contributing
-
 Pull requests are welcome!
 If you find a bug or have a feature request, please open an issue or fork and submit a PR.
 
